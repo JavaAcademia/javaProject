@@ -34,6 +34,7 @@ public class Order {
 		this.custumerNumber=order.getCustumerNumber();				
 	}
 	
+	
 	public Order(int ordN, String ordD, String reqD, String shipD, Status stat, String com, int custN){
 		orderNumber=ordN;
 		orderDate= ordD;
