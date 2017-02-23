@@ -145,6 +145,7 @@ public class Office {
 	
 	public static void main(String[] args) {
 		Office of= new Office("teste","Porto", "351271654352","Rua 1", "Rua 2", "Douro Litoral", "Portugal", "6345-345","Norte");
-		System.out.println(of);
+		System.out.println(Utilities.ANSI_BLUE_BACKGROUND + of);
+		DataBase db = new DataBase();
 	}
 }
