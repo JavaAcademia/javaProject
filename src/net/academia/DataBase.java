@@ -33,4 +33,8 @@ public class DataBase {
 		return ligacao;
 	}
 	
+	public int soma(){
+		return 6;
+	}
+	
 }
