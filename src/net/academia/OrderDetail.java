@@ -11,7 +11,6 @@ public class OrderDetail extends Order {
 	//CONSTRUCTOR
 	public OrderDetail(){
 		super();
-		orderNumber=-1;
 		productCode="";
 		quantityOrder=-1;
 		priceEach=-1.0;
@@ -20,9 +19,8 @@ public class OrderDetail extends Order {
 	
 	
 
-	public OrderDetail(Order order, int ordN, String prodCod, int quantOrd, double pricE, int ordLN ){
+	public OrderDetail(Order order, String prodCod, int quantOrd, double pricE, int ordLN ){
 		super(order);
-		orderNumber= ordN;
 		productCode = prodCod;
 		quantityOrder = quantOrd;
 		priceEach = pricE;
@@ -68,6 +66,16 @@ public class OrderDetail extends Order {
 	public void setOrderLineNumber(int orderLineNumber) {
 		this.orderLineNumber = orderLineNumber;
 	}
+
+
+
+	@Override
+	public String toString() {
+		return "OrderDetail [productCode=" + productCode + ", quantityOrder=" + quantityOrder + ", priceEach="
+				+ priceEach + ", orderLineNumber=" + orderLineNumber + "]";
+	}
+	
+	
 	
 	
 	
