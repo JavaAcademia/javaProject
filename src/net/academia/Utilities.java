@@ -20,6 +20,9 @@ public class Utilities {
 	public static final String ANSI_CYAN = "\u001B[36m";
 	public static final String ANSI_WHITE = "\u001B[37m";
 	
+	public boolean validateSize(int limite, String texto){
+		return (texto.length() <= limite);
+	}
 	
 	public static boolean validatePhone(String phone){
 		phone = phone.replace(" ", "");
