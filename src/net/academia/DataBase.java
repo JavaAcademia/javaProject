@@ -29,7 +29,7 @@ public class DataBase {
 			set.getString(1);
 
 			c.setAutoCommit(false);
-			int f = 34;
+			int f = 36;
 			
 			c.setAutoCommit(true);
 			smt.close();
