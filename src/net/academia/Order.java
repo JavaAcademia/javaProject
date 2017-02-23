@@ -24,6 +24,16 @@ public class Order {
 		custumerNumber=-1;
 	}
 	
+	public Order(Order order){
+		this.orderNumber=order.getOrderNumber();
+		this.orderDate=order.getComents();
+		this.requireDate=order.getComents();
+		this.shippedDate=order.getShippedDate();
+		this.status=order.getStatus();
+		this.coments=order.getComents();
+		this.custumerNumber=order.getCustumerNumber();				
+	}
+	
 	public Order(int ordN, String ordD, String reqD, String shipD, Status stat, String com, int custN){
 		orderNumber=ordN;
 		orderDate= ordD;
@@ -34,6 +44,8 @@ public class Order {
 		custumerNumber=custN;
 		
 	}
+	
+	
 
 	//SET AND GET
 	public int getOrderNumber() {
