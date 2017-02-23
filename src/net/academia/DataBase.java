@@ -31,7 +31,7 @@ public class DataBase {
 			c.setAutoCommit(false);
 			
 			c.setAutoCommit(true);
-			smt.close();
+			//smt.close();
 			c.close();
 			
 		} catch (Exception e) {
