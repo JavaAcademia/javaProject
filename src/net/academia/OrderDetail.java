@@ -28,8 +28,7 @@ public class OrderDetail extends Order {
 		
 		
 	}
-	
-	
+		
 	
 	
 	//GETS AND SETS
@@ -76,9 +75,4 @@ public class OrderDetail extends Order {
 	}
 	
 	
-	
-	
-	
-	
-
 }
