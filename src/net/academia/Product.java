@@ -12,6 +12,8 @@ public class Product {
 	private double buyPrice;
 	private double msrp;
 	
+	private int x=0;
+	
 	
 	//CONSTRUCTOR
 	public Product(){
