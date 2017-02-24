@@ -7,4 +7,9 @@
 /Order$Status.class
 /Order.class
 /OrderDetail.class
+<<<<<<< HEAD
 /Product.class
+=======
+/Person.class
+/Teste.class
+>>>>>>> branch 'origin' of https://github.com/JavaAcademia/javaProject.git
